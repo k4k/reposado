@@ -132,3 +132,11 @@ repoutil --add-product all BRANCH_NAME
 repoutil --remove-product=PRODUCT_ID [PRODUCT_ID ...] BRANCH_NAME
                         
 Remove one or more PRODUCT_IDs from catalog branch BRANCH_NAME.
+
+repoutil --purge-product all-deprecated
+
+Purge all deprecated products that are not in any branches.
+
+repo_sync --log /path/to/logfile
+
+Redirect all output to /path/to/logfile

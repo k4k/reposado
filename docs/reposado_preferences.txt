@@ -68,6 +68,13 @@ CurlPath
     <string>/usr/bin/curl</string>
 
 
+LogFile Path
+    Path repo_sync will use for log output
+    
+    <key>RepoSyncLogFile</key>
+    <string>/path/to/logfile</string>
+
+
 
 Example preferences.plist:
 --------------------------
