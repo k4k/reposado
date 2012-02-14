@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LocalCatalogURLBase</key>
+	<string>http://sosumi.ctisl.gtri.gatech.edu</string>
+	<key>UpdatesMetadataDir</key>
+	<string>/opt/reposado/metadata</string>
+	<key>UpdatesRootDir</key>
+	<string>/opt/reposado/html</string>
+        <key>PreferredLocalizations</key>
+        <array>
+  	      <string>English</string>
+              <string>en</string>
+        </array>
+</dict>
+</plist>

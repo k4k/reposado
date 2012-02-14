@@ -1,0 +1,10 @@
+This will add all available updates to a repo (in this example "test2") except for any product indicated with a "grep -v xxx-xxxx" entry. See example below for more information
+
+# To update branch "test2" but exclude Packages with ID 041-4086 and 041-4084
+# you would run the following
+
+update=$(repoutil --updates | awk '{print $1}' | grep -v 041-4086 | grep -v 041-4084 | tr '\n' ' '); repoutil --add-product=$update test2
+
+# To update branch "test2" but exclude only exclude package ID 041-4086 you would run:
+
+update=$(repoutil --updates | awk '{print $1}' | grep -v 041-4086 | tr '\n' ' '); repoutil --add-product=$update test2
