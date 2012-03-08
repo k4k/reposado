@@ -68,6 +68,7 @@ CurlPath
     <string>/usr/bin/curl</string>
 
 
+<<<<<<< HEAD
 LogFile Path
     Path repo_sync will use for log output
     
@@ -75,6 +76,16 @@ LogFile Path
     <string>/path/to/logfile</string>
 
 
+=======
+RepoSyncLogFile
+    Path to a log file for repo_sync output.
+    
+    Example:
+    <key<RepoSyncLogFile</key>
+    <string>/var/log/reposado_sync.log</string>
+    
+    Defaults to no log file.
+>>>>>>> upstream/master
 
 Example preferences.plist:
 --------------------------
